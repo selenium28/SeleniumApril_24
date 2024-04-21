@@ -36,7 +36,7 @@ public class Locators {
 		WebElement tagName = driver.findElement(By.tagName("a"));
 		
 //		7. xPath
-		WebElement successmsg = driver.findElement(By.xpath("//h1[@class = 'post-title']"));
+		WebElement successmsg = driver.findElement(By.xpath("//input[@autocomplete='given-name']"));
 		String msg = successmsg.getText();
 		
 //		8. cssSelector
