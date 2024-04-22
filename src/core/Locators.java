@@ -42,10 +42,6 @@ public class Locators {
 //		8. cssSelector
 		WebElement successmsgUsingCss = driver.findElement(By.cssSelector("h1[class='post-title']"));
 		String msgcss = successmsgUsingCss.getText();
-		
-		
-		
-		
 
 	}
 
