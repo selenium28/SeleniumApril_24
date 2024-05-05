@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
   <test name="Test">
-	<groups>
-		<run>
-			<include name = "Smoke"/>
-		</run>
-	</groups>
+	<parameter name = "browser" value = "chrome"/>
     <classes>
-      <class name="group.GroupingConcept"/>
+      <class name="para.TestNGParametrization"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
