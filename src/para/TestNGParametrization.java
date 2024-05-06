@@ -12,7 +12,7 @@ public class TestNGParametrization {
 	WebDriver driver;
 
 //	String browser = "firefox";
-
+//  Parameters pass the parameter just once per execution.
 	@Parameters("browser")
 	@Test
 	public void loginTest(String browser) {
