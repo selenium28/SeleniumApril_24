@@ -14,7 +14,7 @@ public class DataProverClass {
 	  
 	  Object[][] data = new Object[3][2];
 	  
-	  data[0][0] = " Yugal ";
+	  data[0][0] = 123;
 	  data[0][1] = " Tirpude ";
 	  
 	  data[1][0] = " Rajanikant ";
